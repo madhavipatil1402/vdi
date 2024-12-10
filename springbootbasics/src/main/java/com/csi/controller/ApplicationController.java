@@ -25,6 +25,6 @@ public class ApplicationController {
 
 	@GetMapping("/welcome")
 	public String sayWelcome() {
-		return "WELCOME TO PUNE";
+		return "WELCOME TO ";
 	}
 }
